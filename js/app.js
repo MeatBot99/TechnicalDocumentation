@@ -21,8 +21,8 @@ for (let section of sections) {
   newSection.appendChild(code);
   navList.appendChild(navListItem);
   navListItem.appendChild(navLink);
+  
   //Includes a list if the Object has a list
-
   if(section.list){
     let unorderedList= document.createElement("ul");
     for (let listItem of section.list){
